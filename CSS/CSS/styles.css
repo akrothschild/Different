@@ -1,0 +1,139 @@
+/* we´ve changed the standard 16px size */
+html {
+  font-size: 10px;
+}
+h1 {
+  color: crimson;
+  font-size: 4rem;
+}
+h2 {
+  color: rgb(87, 23, 190);
+  font-size: 3rem;
+}
+h3 {
+  color: rgb(185, 34, 185);
+  font-size: 2rem;
+}
+h4,
+h5 {
+  color: tomato;
+}
+
+/* comments */
+/* CSS rule: */
+/* 1) selectors h1, h2 etc */
+/* 2) declaration blocks {} */
+/* 3) properties inside the declaration block */
+/* 4) values */
+
+/* Element selectors */
+p {
+  color: red;
+}
+
+/* IDs */
+#footer {
+  color: turquoise;
+  background: black;
+}
+#title {
+  font-size: 40px;
+}
+
+/* Class Selector */
+.green {
+  color: green;
+}
+.red {
+  color: red;
+  background: grey;
+}
+.lowercase {
+  text-transform: lowercase;
+}
+/* div for grouping couple of elements */
+div {
+  color: hotpink;
+  background: grey;
+  border: 3px solid black;
+}
+/* span selects part of a particular element */
+span {
+  text-transform: uppercase;
+}
+
+/* Inheritance: <p>, <h> inherit from <body>*/
+body {
+  color: indigo;
+  font-family: "Roboto", sans-serif;
+  line-height: 1.5em;
+}
+
+/* Universal selector changes with the lowest specificity all the elements  */
+* {
+  font-size: larger;
+  /* define standart margin, may be negative */
+  margin: 0;
+  /* define standard padding */
+  padding: 20px;
+  /* padding: 20px 20px - up&down and left&right*/
+  /* padding: 20px 20px 20px 20px - left, right, bottom, left */
+  /* Border */
+  border-style: solid;
+  border-width: 10px;
+  border-color: pink;
+  border-radius: 20px;
+}
+/* color, opacity, font */
+/* 1em = 16px default browser style */
+/* 1rem doesnt depend on parent but on a root (initial html settings) */
+#first {
+  color: lightblue;
+  background-color: chocolate;
+  font-size: 1em;
+}
+#second {
+  color: crimson;
+  background: rgba(217, 15, 140, 0.498);
+  font-size: 16px;
+}
+#third {
+  color: rgb(100, 123, 56);
+  background: rgba(0, 0, 0, 0.2);
+}
+
+/* relative height, width */
+.banner {
+  width: 50vw;
+  height: 50vh;
+  background: royalblue;
+  border: 13px solid yellow;
+}
+
+/* working with links */
+a {
+  font-size: 40px;
+  /* delete underline */
+  text-decoration: none;
+}
+
+/* how to hide elements */
+.display {
+  display: none;
+}
+
+.opacity1 {
+  opacity: 1;
+}
+
+.opacity5 {
+  opacity: 0.5;
+}
+
+.opacity0 {
+  opacity: 0;
+}
+
+.visibility {
+  visibility: hidden;
+}
